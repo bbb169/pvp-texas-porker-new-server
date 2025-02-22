@@ -52,7 +52,7 @@ export class Message {
   avatarUrl: string | null;
 }
 
-@Entity('chatRoom', { schema: 'younglaw' })
+@Entity('chatRoom', { schema: 'pvpTexasPorker' })
 export class ChatRoom {
   @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
   id: number;
@@ -118,7 +118,7 @@ export class ChatRoom {
   };
 }
 
-// @Entity('chatRoomMessageRelate', { schema: 'younglaw' })
+// @Entity('chatRoomMessageRelate', { schema: 'pvpTexasPorker' })
 // export class ChatRoomMessageRelate {
 //   @PrimaryColumn({ type: 'int', name: 'roomId' })
 //   roomId: number;
@@ -133,7 +133,7 @@ export class ChatRoom {
 //   message: Message;
 // }
 
-// @Entity('chatRoomUserRelate', { schema: 'younglaw' })
+// @Entity('chatRoomUserRelate', { schema: 'pvpTexasPorker' })
 // export class ChatRoomUserRelate {
 //   @PrimaryColumn({ type: 'int', name: 'roomId' })
 //   roomId: number;

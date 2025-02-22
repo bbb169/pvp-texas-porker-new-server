@@ -24,7 +24,7 @@ import { Case } from 'src/cases/entities/case.entity';
 import * as dayjs from 'dayjs';
 
 @WebSocketGateway({
-  namespace: 'younglaw',
+  namespace: 'pvpTexasPorker',
   cors: { origin: '*' },
   transports: ['polling', 'websocket', 'webtransport'],
   allowEIO3: true,

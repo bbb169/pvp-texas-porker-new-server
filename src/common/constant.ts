@@ -4,11 +4,11 @@ const saveFilePaths = {
   windowsLocal: 'F:\\',
 };
 
-export const saveFilePath = saveFilePaths.online;
+export const saveFilePath = saveFilePaths.windowsLocal;
 
 const databaseNameMap = {
-  online: 'younglaw_online',
-  dev: 'younglaw',
+  online: 'pvpTexasPorker_online',
+  dev: 'pvpTexasPorker',
 };
 
-export const databaseName = databaseNameMap.online;
+export const databaseName = databaseNameMap.dev;

@@ -17,10 +17,10 @@ import { databaseName, saveFilePath } from './common/constant';
     UserModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '159.75.130.129',
+      host: '127.0.0.1',
       port: 3306,
-      username: 'younglaw',
-      password: '9156younglaw8270.',
+      username: 'root',
+      password: 'root',
       database: databaseName,
       entities: [],
       synchronize: true,
